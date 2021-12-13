@@ -27,4 +27,11 @@ export class OrbitListComponent implements OnInit {
 		});
 	}
 
+	isHighlighted(num): boolean {
+		if (Number(num)%2===0){
+			return true
+		}
+		return false
+   }
+
 }
